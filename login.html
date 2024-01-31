@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Metro Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chennai Metro Guide</h1>
+        <label for="startStation">Start Station:</label>
+        <input type="text" id="startStation" placeholder="Enter start station">
+         <br>
+        <label for="stopStation">Stop Station:</label>
+        <input type="text" id="stopStation" placeholder="Enter stop station">
+ <br>
+        <button onclick="findMetroLine()">Find Metro Line</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
