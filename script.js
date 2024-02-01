@@ -11,15 +11,18 @@ function findMetroLine() {
 }
 
 function getMetroLine(startStation, stopStation) {
-    // Implement your logic to determine the metro line based on station names
-    // This could involve checking a predefined dataset or using an algorithm
-    // For simplicity, let's assume a direct connection between stations A and B is always the same line
-    // You can replace this with your actual logic
-    if (startStation === "StationA" && stopStation === "StationB") {
+    let blue=['lic','tenabet','airport'];
+    let green=['shenoy nagar','koyambedu','kilpauk'];
+    
+    if (startStation in blue && stopStation in blue) {
         return "Blue Line";
-    } else if (startStation === "StationC" && stopStation === "StationD") {
+    } else if (startStation in green && stopStation in green) {
         return "Red Line";
-    } else {
+    }
+    else if(startStation in green && stopStation in blue)||(startStation in blue && stopStation in green){
+        return "use station central or alandur";
+    }
+    else {
         return "Line not found";
     }
 }
