@@ -10,11 +10,92 @@
     <div class="container">
         <h1>Chennai Metro Guide</h1>
         <label for="startStation">Start Station:</label>
-        <input type="text" id="startStation" placeholder="Enter start station">
-         <br>
+        <select id="startStation">
+<option value="AG – DMS">AG – DMS</option>
+<option value="Anna Nagar East">Anna Nagar East</option>
+<option value="Anna Nagar Tower">Anna Nagar Tower</option>
+<option value="Alandur">Alandur</option>
+<option value="Arumbakkam">Arumbakkam</option>
+<option value="Ashok Nagar">Ashok Nagar</option>
+<option value="Chennai International Airport">Chennai International Airport</option>
+<option value="Egmore">Egmore</option>
+<option value="Ekkattuthangal">Ekkattuthangal</option>
+<option value="Government Estate">Government Estate</option>
+<option value="Guindy">Guindy</option>
+<option value="High Court">High Court</option>
+<option value="Kaladipet">Kaladipet</option>
+<option value="Kilpauk">Kilpauk</option>
+<option value="Koyambedu">Koyambedu</option>
+<option value="LIC">LIC</option>
+<option value="Little Mount">Little Mount</option>
+<option value="Mannadi">Mannadi</option>
+<option value="Meenambakkam">Meenambakkam</option>
+<option value="Nandanam">Nandanam</option>
+<option value="Nanganallur Road">Nanganallur Road</option>
+<option value="Nehru Park">Nehru Park</option>
+<option value="New Washermanpet">New Washermanpet</option>
+<option value="Pachaiyappa's College">Pachaiyappa's College</option>
+<option value="Puratchi Thalaivar Dr. M.G. Ramachandran Central">Puratchi Thalaivar Dr. M.G. Ramachandran Central</option>
+<option value="Puratchi Thalaivi Dr. J. Jayalalithaa CMBT">Puratchi Thalaivi Dr. J. Jayalalithaa CMBT</option>
+<option value="Saidapet">Saidapet</option>
+<option value="Shenoy Nagar">Shenoy Nagar</option>
+<option value="Sir Theagaraya College">Sir Theagaraya College</option>
+<option value="St. Thomas Mount">St. Thomas Mount</option>
+<option value="Teynampet">Teynampet</option>
+<option value="Thirumangalam">Thirumangalam</option>
+<option value="Tiruvottriyur">Tiruvottriyur</option>
+<option value="Tiruvottriyur Theradi">Tiruvottriyur Theradi</option>
+<option value="Thousand Lights">Thousand Lights</option>
+<option value="Tollgate">Tollgate</option>
+<option value="Tondiarpet">Tondiarpet</option>
+<option value="Vadapalani">Vadapalani</option>
+<option value="Washermanpet">Washermanpet</option>
+<option value="Wimco Nagar">Wimco Nagar</option>
+        </select><br><br>
         <label for="stopStation">Stop Station:</label>
-        <input type="text" id="stopStation" placeholder="Enter stop station">
- <br>
+        <select id="stopStation">
+<option value="AG – DMS">AG – DMS</option>
+<option value="Anna Nagar East">Anna Nagar East</option>
+<option value="Anna Nagar Tower">Anna Nagar Tower</option>
+<option value="Alandur">Alandur</option>
+<option value="Arumbakkam">Arumbakkam</option>
+<option value="Ashok Nagar">Ashok Nagar</option>
+<option value="Chennai International Airport">Chennai International Airport</option>
+<option value="Egmore">Egmore</option>
+<option value="Ekkattuthangal">Ekkattuthangal</option>
+<option value="Government Estate">Government Estate</option>
+<option value="Guindy">Guindy</option>
+<option value="High Court">High Court</option>
+<option value="Kaladipet">Kaladipet</option>
+<option value="Kilpauk">Kilpauk</option>
+<option value="Koyambedu">Koyambedu</option>
+<option value="LIC">LIC</option>
+<option value="Little Mount">Little Mount</option>
+<option value="Mannadi">Mannadi</option>
+<option value="Meenambakkam">Meenambakkam</option>
+<option value="Nandanam">Nandanam</option>
+<option value="Nanganallur Road">Nanganallur Road</option>
+<option value="Nehru Park">Nehru Park</option>
+<option value="New Washermanpet">New Washermanpet</option>
+<option value="Pachaiyappa's College">Pachaiyappa's College</option>
+<option value="Puratchi Thalaivar Dr. M.G. Ramachandran Central">Puratchi Thalaivar Dr. M.G. Ramachandran Central</option>
+<option value="Puratchi Thalaivi Dr. J. Jayalalithaa CMBT">Puratchi Thalaivi Dr. J. Jayalalithaa CMBT</option>
+<option value="Saidapet">Saidapet</option>
+<option value="Shenoy Nagar">Shenoy Nagar</option>
+<option value="Sir Theagaraya College">Sir Theagaraya College</option>
+<option value="St. Thomas Mount">St. Thomas Mount</option>
+<option value="Teynampet">Teynampet</option>
+<option value="Thirumangalam">Thirumangalam</option>
+<option value="Tiruvottriyur">Tiruvottriyur</option>
+<option value="Tiruvottriyur Theradi">Tiruvottriyur Theradi</option>
+<option value="Thousand Lights">Thousand Lights</option>
+<option value="Tollgate">Tollgate</option>
+<option value="Tondiarpet">Tondiarpet</option>
+<option value="Vadapalani">Vadapalani</option>
+<option value="Washermanpet">Washermanpet</option>
+<option value="Wimco Nagar">Wimco Nagar</option>
+        </select><br><br>
+
         <button onclick="findMetroLine()">Find Metro Line</button>
 
         <div id="result"></div>
@@ -23,3 +104,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
